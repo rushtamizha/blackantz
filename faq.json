@@ -1,0 +1,29 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the typical turnaround time for a branding project?",
+      "answer": "For core identity projects (Logo & Branding), it typically takes 7-10 business days. For large-scale production like ACP Signage or Packaging, timelines depend on quantity and fabrication complexity."
+    },
+    {
+      "id": 2,
+      "question": "Do you provide installation services for sign boards?",
+      "answer": "Yes, we handle the end-to-end process. This includes design, high-quality fabrication, and professional on-site installation by our specialized team."
+    },
+    {
+      "id": 3,
+      "question": "Can I request a custom package for my startup?",
+      "answer": "Absolutely. We specialize in cost-effective startup kits that include logo design, visiting cards, and basic social media branding tailored to your budget."
+    },
+    {
+      "id": 4,
+      "question": "Do you serve clients outside of Tamil Nadu?",
+      "answer": "Yes, while we are based in Theni, we provide design and digital services nationwide. For physical production (Printing & Signs), we ship across India."
+    },
+    {
+      "id": 5,
+      "question": "What materials do you use for premium sign boards?",
+      "answer": "We use high-grade ACP (Aluminum Composite Panels), premium Acrylic letters, and branded LED modules to ensure long-lasting durability and high visibility."
+    }
+  ]
+}

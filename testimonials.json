@@ -1,0 +1,32 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Legalla Galaxy",
+      "role": "Real Estate Developer",
+      "content": "The ACP signage and branding provided by Blackantz completely transformed our site visibility. Their attention to detail in the acrylic LED work is unmatched.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "name": "Falcon Lighting",
+      "role": "Showroom Owner",
+      "content": "Professional approach and high-quality fabrication. The aluminum fabric lighting boards they installed are a major highlight of our showroom.",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "name": "Al-Habibi",
+      "role": "F&B Director",
+      "content": "From logo identity to our restaurant menu UV printing, Blackantz handled everything. They are our go-to partner for all creative and advertising needs.",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "name": "Kadal Arasan",
+      "role": "Tourism Lead",
+      "content": "Exceptional digital and print coordination. Their ability to deliver premium results on a tight timeline helped our Andaman project launch successfully.",
+      "rating": 5
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "topRow": [
+    {
+      "id": "l-01",
+      "name": "Legalla Galaxy",
+      "image": "/logos/legalla.png",
+      "alt": "Legalla Galaxy Creative Client"
+    },
+    {
+      "id": "l-02",
+      "name": "Falcon Lighting",
+      "image": "/logos/falcon.png",
+      "alt": "Falcon Lighting Showroom"
+    },
+    {
+      "id": "l-03",
+      "name": "Al-Habibi",
+      "image": "/logos/habibi.png",
+      "alt": "Al-Habibi Fried Chicken"
+    },
+    {
+      "id": "l-04",
+      "name": "Sambash",
+      "image": "/logos/sambash.png",
+      "alt": "Sambash Enterprises"
+    },
+    {
+      "id": "l-05",
+      "name": "Marybrown",
+      "image": "/logos/marybrown.png",
+      "alt": "Marybrown Restaurant"
+    },
+    {
+      "id": "l-06",
+      "name": "Sony Pictures",
+      "image": "/logos/sony.png",
+      "alt": "Sony Pictures Television"
+    }
+  ],
+  "bottomRow": [
+    {
+      "id": "l-07",
+      "name": "AK Tours",
+      "image": "/logos/aktours.png",
+      "alt": "AK Tours & Travels"
+    },
+    {
+      "id": "l-08",
+      "name": "Kadal Arasan",
+      "image": "/logos/kadal.png",
+      "alt": "Kadal Arasan Andaman Tourism"
+    },
+    {
+      "id": "l-09",
+      "name": "Nandha Groups",
+      "image": "/logos/nandha.png",
+      "alt": "Nandha Groups"
+    },
+    {
+      "id": "l-10",
+      "name": "Ortus Audios",
+      "image": "/logos/ortus.png",
+      "alt": "Ortus Audios Premium Sound"
+    },
+    {
+      "id": "l-11",
+      "name": "Estrella",
+      "image": "/logos/estrella.png",
+      "alt": "Estrella Branding"
+    },
+    {
+      "id": "l-12",
+      "name": "Star Nails",
+      "image": "/logos/star.png",
+      "alt": "Star Nails & Spa"
+    }
+  ]
+}

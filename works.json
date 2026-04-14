@@ -1,0 +1,106 @@
+{
+  "signage": [
+    {
+      "id": "sig-01",
+      "title": "Legalla Galaxy Signage",
+      "category": "Signage",
+      "type": "ACP Acrylic Sign",
+      "image": "/images/portfolio/signage/legalla-galaxy.jpg",
+      "whatsapp": "Hi Blackantz, I'm interested in an ACP Acrylic Sign similar to Legalla Galaxy."
+    },
+    {
+      "id": "sig-02",
+      "title": "Falcon Lighting Box",
+      "category": "Signage",
+      "type": "Aluminum Fabric Lightbox",
+      "image": "/images/portfolio/signage/falcon-lighting.jpg",
+      "whatsapp": "Hi Blackantz, inquiry for Aluminum Fabric Lightbox like Falcon."
+    },
+    {
+      "id": "sig-03",
+      "title": "Sony Pictures Television",
+      "category": "Signage",
+      "type": "LED Slim Display Board",
+      "image": "/images/portfolio/signage/sony-pictures.jpg",
+      "whatsapp": "Hi Blackantz, I need a quote for an LED Slim Display Board."
+    },
+    {
+      "id": "sig-04",
+      "title": "Sambash Enterprises",
+      "category": "Signage",
+      "type": "Glow Shine Board",
+      "image": "/images/portfolio/signage/sambash-glow.jpg",
+      "whatsapp": "Hi Blackantz, inquiry for Glow Shine Boards."
+    }
+  ],
+  "packaging": [
+    {
+      "id": "pkg-01",
+      "title": "Premium Pizza Box",
+      "category": "Packaging",
+      "type": "Food Packaging",
+      "image": "/images/portfolio/packaging/pizza-box.jpg",
+      "whatsapp": "Hi Blackantz, I need a custom Pizza Box design and production."
+    },
+    {
+      "id": "pkg-02",
+      "title": "Masala Pouch Design",
+      "category": "Packaging",
+      "type": "Pouch Design",
+      "image": "/images/portfolio/packaging/masala-pouch.jpg",
+      "whatsapp": "Hi Blackantz, inquiry for Masala Packet / Pouch design."
+    },
+    {
+      "id": "pkg-03",
+      "title": "Rice Bag Branding",
+      "category": "Packaging",
+      "type": "Woven Bag Design",
+      "image": "/images/portfolio/packaging/rice-bag.jpg",
+      "whatsapp": "Hi Blackantz, I need Rice Bag branding and design."
+    }
+  ],
+  "printing": [
+    {
+      "id": "prnt-01",
+      "title": "Al-Habibi Menu Card",
+      "category": "Printing",
+      "type": "UV Display Menu",
+      "image": "/images/portfolio/printing/al-habibi-menu.jpg",
+      "whatsapp": "Hi Blackantz, inquiry for Restaurant Display Menu UV Printing."
+    },
+    {
+      "id": "prnt-02",
+      "title": "Corporate Lanyards",
+      "category": "Printing",
+      "type": "Multicolor Lanyard",
+      "image": "/images/portfolio/printing/lanyards.jpg",
+      "whatsapp": "Hi Blackantz, I need multicolor ID Lanyards for my company."
+    },
+    {
+      "id": "prnt-03",
+      "title": "Premium Visiting Cards",
+      "category": "Printing",
+      "type": "Matt & UV Finish",
+      "image": "/images/portfolio/printing/visiting-cards.jpg",
+      "whatsapp": "Hi Blackantz, I need Premium Visiting Cards with UV finish."
+    }
+  ],
+  "creative": [
+    {
+      "id": "des-01",
+      "title": "Corporate Identity",
+      "category": "Creative",
+      "type": "Logo Design",
+      "image": "/images/portfolio/design/logo-branding.jpg",
+      "whatsapp": "Hi Blackantz, I want to start a new Logo and Branding project."
+    },
+    {
+      "id": "des-02",
+      "title": "Social Media Campaign",
+      "category": "Creative",
+      "type": "Ad Design",
+      "image": "/works/Arizo_Ricebran-Oil-Pouch-570x420.jpg",
+      "whatsapp": "Hi Blackantz, I need Social Media Poster designs."
+    }
+  ]
+}
