@@ -4,7 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
-import { MessageCircle, ArrowUpRight } from "lucide-react";
+import { MessageCircle, ArrowUpRight, CheckCircle2 } from "lucide-react";
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,38 +14,31 @@ import "swiper/css/navigation";
 const serviceCategories = [
   {
     title: "Creative Design",
-    desc: "Impactful branding that defines your business identity.",
-    items: ["Logo & Identity", "Corporate Profile", "Event Design", "Social Media Posters"],
+    desc: "Eye-catching strategic designs building brand awareness through passionate solutions.",
+    items: ["Branding & Brand Development", "Advertising Campaigns", "Logo & Identity", "Corporate Creative Design"],
     whatsapp: "Hi Blackantz, I need a Creative Design quote.",
-    image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=800&auto=format&fit=crop"
+    image: "https://www.creativepoint.in/wp-content/uploads/2024/07/brand-development-768x588-1.webp"
   },
   {
-    title: "Product Packaging",
-    desc: "Specialized retail packaging for food, medicine, and FMCG.",
-    items: ["Carton & Pouch Design", "Pizza & Sweet Boxes", "Oil & Rice Bags", "Masala Packets"],
+    title: "Packaging Design",
+    desc: "Modern retail packaging from amenity packs to food and beauty products.",
+    items: ["Carton & Product Boxes", "Container Wrapping", "Sachets & Pouches", "Product Design Strategy"],
     whatsapp: "Hi Blackantz, I'm interested in Product Packaging design.",
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop"
+    image: "https://5.imimg.com/data5/SELLER/Default/2024/3/396327002/IH/CM/WU/9357456/pouch-designing-services-500x500.jpg"
   },
   {
-    title: "Premium Signage",
-    desc: "High-visibility boards for shops, malls, and industries.",
-    items: ["ACP & LED Acrylic", "Gold Letter Sign", "Totem / Pylon Signs", "Slim Backlit Boards"],
-    whatsapp: "Hi Blackantz, I want to inquire about Shop Sign Boards.",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=800&auto=format&fit=crop"
+    title: "Printing & Signage",
+    desc: "100+ valuable vendors ensuring high-quality multicolor product printing.",
+    items: ["Acrylic & LED Sign Boards", "Slim UV Lighting Boards", "Brochures & Catalogs", "Inshop Branding"],
+    whatsapp: "Hi Blackantz, I need Printing and Signage details.",
+    image: "https://images.jdmagicbox.com/quickquotes/images_main/3d-vinyl-led-letter-sign-board-for-advertising-2217257308-x6y3gsii.jpg"
   },
   {
-    title: "Printing Services",
-    desc: "Quality offset and digital printing with premium finishes.",
-    items: ["Matt/Glossy Cards", "Brochures & Catalogs", "Lanyards & ID Cards", "Vehicle Branding"],
-    whatsapp: "Hi Blackantz, I need Printing Service details.",
-    image: "https://images.unsplash.com/photo-1562654501-a0ccc0af3fb1?q=80&w=800&auto=format&fit=crop"
-  },
-  {
-    title: "Hospitality & Retail",
-    desc: "End-to-end branding for restaurants and retail outlets.",
-    items: ["Menu Card Design", "Display UV Printing", "Inshop Branding", "Sandwich Boards"],
-    whatsapp: "Hi Blackantz, I need branding for my Restaurant/Shop.",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
+    title: "Digital & Events",
+    desc: "Social media management and event backdrop creatives for maximum impact.",
+    items: ["Digital Marketing Planning", "Social Media Content", "Event Backdrops", "Stall & POP Designs"],
+    whatsapp: "Hi Blackantz, I need help with Digital Marketing or Events.",
+    image: "https://img.freepik.com/free-psd/digital-marketing-3d-design-social-media-post-template_47987-21589.jpg"
   }
 ];
 
@@ -55,42 +48,59 @@ const Services = () => {
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
+  const workflowItems = [
+    "Business Goal Workshops",
+    "Product/Brand Strategy",
+    "Visual Identity Systems",
+    "Pre-press Debugging"
+  ];
+
   return (
     <section id="services" className="py-24 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div className="grid lg:grid-cols-2 gap-8 items-end mb-16">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h4 className="text-[#F37021] font-black uppercase tracking-[0.3em] text-xs mb-4">What We Do</h4>
-            <h2 className="text-4xl md:text-5xl font-black text-[#1A1A1B] tracking-tighter">
-              Integrated <span className="text-[#F37021]">Creative</span> Solutions
+            <h4 className="text-[#F37021] font-black uppercase tracking-[0.3em] text-xs mb-4">Branding & Creative Services</h4>
+            <h2 className="text-4xl md:text-5xl font-black text-[#1A1A1B] tracking-tighter leading-tight">
+              Real and <span className="text-[#F37021]">Ethereal Results</span> for Growing ROI
             </h2>
           </motion.div>
-          <p className="text-gray-500 font-medium max-w-sm">
-            From digital concepts to physical fabrication, we provide a complete 360° advertising ecosystem.
-          </p>
+          
+          <div className="flex flex-wrap gap-4">
+            {workflowItems.map((item, idx) => (
+              <div key={idx} className="flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-gray-200">
+                <CheckCircle2 size={14} className="text-[#F37021]" />
+                <span className="text-[10px] font-black uppercase tracking-tight text-gray-600">{item}</span>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Swiper Container */}
         <Swiper
           modules={[Pagination, Autoplay, Navigation]}
           spaceBetween={30}
-          slidesPerView={1}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
           loop={true}
           autoplay={{ delay: 4000, disableOnInteraction: false }}
           className="pb-20 !overflow-visible"
         >
           {serviceCategories.map((service, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl hover:shadow-orange-100 transition-all duration-500 h-full flex flex-col group">
+              <div className="bg-white rounded-[2.5rem] overflow-hidden border border-gray-100 shadow-sm group transition-all duration-500 h-[550px] flex flex-col hover:shadow-2xl hover:shadow-orange-100/50">
                 
                 {/* Image & Overlay */}
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
                   <img 
                     src={service.image} 
                     alt={service.title} 
@@ -104,13 +114,13 @@ const Services = () => {
 
                 {/* Content */}
                 <div className="p-8 flex-1 flex flex-col">
-                  <p className="text-gray-500 text-sm font-medium mb-6 leading-relaxed">
+                  <p className="text-gray-500 text-[13px] font-medium mb-6 leading-relaxed">
                     {service.desc}
                   </p>
                   
                   <ul className="space-y-3 mb-8 flex-1">
                     {service.items.map((item, i) => (
-                      <li key={i} className="flex items-center gap-3 text-xs font-bold text-[#1A1A1B] uppercase tracking-wide">
+                      <li key={i} className="flex items-center gap-3 text-[11px] font-bold text-[#1A1A1B] uppercase tracking-wide">
                         <div className="w-1.5 h-1.5 rounded-full bg-[#F37021]" />
                         {item}
                       </li>
@@ -135,11 +145,20 @@ const Services = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+
+        {/* Experience Counter Footer */}
+        <div className="mt-12 text-center">
+          <p className="text-gray-400 text-xs font-bold uppercase tracking-[0.2em]">
+            Unstoppable service with <span className="text-[#1A1A1B]">14+ Years of Industry Experience</span> & 100+ Specialized Vendors
+          </p>
+        </div>
       </div>
 
       <style jsx global>{`
         .swiper-pagination-bullet-active {
           background: #F37021 !important;
+          width: 24px;
+          border-radius: 4px;
         }
       `}</style>
     </section>

@@ -10,10 +10,14 @@ import worksData from "@/works.json";
 
 // Combined list for the infinite auto-slide
 const allWorks = [
-  ...worksData.signage,
-  ...worksData.packaging,
-  ...worksData.printing,
-  ...worksData.creative
+      ...worksData.aluminumfabric,
+      ...worksData.expobranding,
+      ...worksData.fancysignage,
+      ...worksData.graphicdesign,
+      ...worksData.packagedesign,
+      ...worksData.siteworks,
+      ...worksData.vehiclebranding,
+      ...worksData.portfolio,
 ];
 
 const HomePortfolio = () => {

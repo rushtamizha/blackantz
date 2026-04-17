@@ -12,19 +12,27 @@ export default function PortfolioPage() {
   // Flattening and memoizing the data for the "All" view
   const allWorks = useMemo(() => {
     return [
-      ...worksData.signage,
-      ...worksData.packaging,
-      ...worksData.printing,
-      ...worksData.creative,
+      ...worksData.aluminumfabric,
+      ...worksData.expobranding,
+      ...worksData.fancysignage,
+      ...worksData.graphicdesign,
+      ...worksData.packagedesign,
+      ...worksData.siteworks,
+      ...worksData.vehiclebranding,
+      ...worksData.portfolio,
     ];
   }, []);
 
   const categories = [
     { id: "all", label: "All Projects" },
-    { id: "Signage", label: "Signage" },
-    { id: "Packaging", label: "Packaging" },
-    { id: "Printing", label: "Printing" },
-    { id: "Creative", label: "Design" },
+    // { id: "aluminumfabric", label: "aluminumfabric" },
+    // { id: "expobranding", label: "expobranding" },
+    // { id: "fancysignage", label: "fancysignage" },
+    // { id: "graphicdesign", label: "graphicdesign" },
+    // { id: "packagedesign", label: "packagedesign" },
+    // { id: "siteworks", label: "siteworks" },
+    // { id: "vehiclebranding", label: "vehiclebranding" },
+    // { id: "portfolio", label: "portfolio" },
   ];
 
   const displayWorks = activeCategory === "all" 
@@ -118,7 +126,7 @@ export default function PortfolioPage() {
         {/* Empty Result State */}
         {displayWorks.length === 0 && (
           <div className="py-40 text-center">
-            <p className="text-gray-300 font-black uppercase tracking-[0.3em] text-sm italic">
+            <p className="text-gray-300 font-black uppercase tracking-[0.3em] text-sm ">
               Updating project archives...
             </p>
           </div>

@@ -40,7 +40,7 @@ const Testimonials = () => {
         >
           {reviewsData.reviews.map((review) => (
             <SwiperSlide key={review.id}>
-              <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col h-full group">
+              <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm  transition-all duration-500 flex flex-col h-full group">
                 
                 {/* Quote Icon */}
                 <div className="mb-6 flex justify-between items-center">
@@ -55,7 +55,7 @@ const Testimonials = () => {
                 </div>
 
                 {/* Content */}
-                <p className="text-gray-600 text-lg leading-relaxed font-medium mb-8 flex-1 italic">
+                <p className="text-gray-600 text-lg leading-relaxed font-medium mb-8 flex-1 ">
                   "{review.content}"
                 </p>
 

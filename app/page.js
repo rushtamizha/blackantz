@@ -1,6 +1,5 @@
 import About from "@/components/About";
 import Clients from "@/components/Clients";
-import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -13,7 +12,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <Navbar/>
       <Hero/>
       <About/>
       <Services/>
@@ -21,8 +19,6 @@ export default function Home() {
       <HomePortfolio/>
       <Clients/>
       <Testimonials/>
-      <Faq/>
-      <Footer/>
     </div>
   );
 }

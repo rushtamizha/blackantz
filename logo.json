@@ -1,78 +1,45 @@
 {
-  "topRow": [
-    {
-      "id": "l-01",
-      "name": "Legalla Galaxy",
-      "image": "/logos/legalla.png",
-      "alt": "Legalla Galaxy Creative Client"
-    },
-    {
-      "id": "l-02",
-      "name": "Falcon Lighting",
-      "image": "/logos/falcon.png",
-      "alt": "Falcon Lighting Showroom"
-    },
-    {
-      "id": "l-03",
-      "name": "Al-Habibi",
-      "image": "/logos/habibi.png",
-      "alt": "Al-Habibi Fried Chicken"
-    },
-    {
-      "id": "l-04",
-      "name": "Sambash",
-      "image": "/logos/sambash.png",
-      "alt": "Sambash Enterprises"
-    },
-    {
-      "id": "l-05",
-      "name": "Marybrown",
-      "image": "/logos/marybrown.png",
-      "alt": "Marybrown Restaurant"
-    },
-    {
-      "id": "l-06",
-      "name": "Sony Pictures",
-      "image": "/logos/sony.png",
-      "alt": "Sony Pictures Television"
-    }
-  ],
-  "bottomRow": [
-    {
-      "id": "l-07",
-      "name": "AK Tours",
-      "image": "/logos/aktours.png",
-      "alt": "AK Tours & Travels"
-    },
-    {
-      "id": "l-08",
-      "name": "Kadal Arasan",
-      "image": "/logos/kadal.png",
-      "alt": "Kadal Arasan Andaman Tourism"
-    },
-    {
-      "id": "l-09",
-      "name": "Nandha Groups",
-      "image": "/logos/nandha.png",
-      "alt": "Nandha Groups"
-    },
-    {
-      "id": "l-10",
-      "name": "Ortus Audios",
-      "image": "/logos/ortus.png",
-      "alt": "Ortus Audios Premium Sound"
-    },
-    {
-      "id": "l-11",
-      "name": "Estrella",
-      "image": "/logos/estrella.png",
-      "alt": "Estrella Branding"
-    },
-    {
-      "id": "l-12",
-      "name": "Star Nails",
-      "image": "/logos/star.png",
-      "alt": "Star Nails & Spa"
-    }
+  "logoData": [
+    { "id": 1, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 81A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 2, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 82A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 3, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 83A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 4, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 84A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 5, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 85A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 6, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 86A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 7, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 87A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 8, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 88A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 9, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 89A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 10, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 90A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 11, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 91A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 12, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 92A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 13, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 93A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 14, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 94A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 15, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 95A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 16, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 96A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 17, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 100A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 18, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 102A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 19, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 103A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 20, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 104A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 21, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 105A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 22, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 106A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 23, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 107A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 24, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 108A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 25, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 109A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 26, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 110A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 27, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 111A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 28, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 112A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 29, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 113A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 30, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 114A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 31, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 115A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 32, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 116A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 33, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 117A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 34, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 118A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 35, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 119A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 36, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Asset 120A1.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 37, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Iglo.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 38, "name": "Legalla Galaxy", "image": "/NEW CLIENT/MGM.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 39, "name": "Legalla Galaxy", "image": "/NEW CLIENT/Restaurant Font Glass-Artworks.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 40, "name": "Legalla Galaxy", "image": "/NEW CLIENT/STEP_SIGN.png", "alt": "Legalla Galaxy Creative Client" },
+    { "id": 41, "name": "Legalla Galaxy", "image": "/NEW CLIENT/TCB LOGO.png", "alt": "Legalla Galaxy Creative Client" }
   ]
 }

@@ -3,44 +3,44 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { 
-  ShieldCheck, 
-  Clock, 
-  Settings2, 
-  Banknote, 
-  Award, 
-  Users 
+  Search, 
+  History, 
+  Compass, 
+  BarChart3, 
+  Palette, 
+  Crown 
 } from "lucide-react";
 
 const reasons = [
   {
-    title: "Detail Oriented",
-    desc: "As a small company, we offer the advantage of being meticulous with every design pixel and print finish.",
-    icon: <Settings2 size={24} />,
+    title: "Customer Insights",
+    desc: "The first phase of our workflow is to determine exactly what the consumer needs and the specific requirements of the brand.",
+    icon: <Search size={24} />,
   },
   {
-    title: "Enduring Brands",
-    desc: "We don't just design; we build brands that earn consumer trust and loyalty for the long term.",
-    icon: <ShieldCheck size={24} />,
+    title: "Heritage Research",
+    desc: "We research the traditions and history of your product to find its distinctive uniqueness and original story.",
+    icon: <History size={24} />,
   },
   {
-    title: "Proven Track Record",
-    desc: "Successfully delivered 250+ projects and worked with over 50+ brands across India.",
-    icon: <Award size={24} />,
+    title: "Brand Strategy",
+    desc: "A comprehensive plan used to shape and position your brand in the market, including identity, audience, and messaging.",
+    icon: <Compass size={24} />,
   },
   {
-    title: "Production Power",
-    desc: "Access to high-quality printers and fabrication vendors for professional-grade physical branding.",
-    icon: <Users size={24} />,
+    title: "Strategic Growth",
+    desc: "A workflow that connects your goals with market trends and consumer perceptions to support long-term success.",
+    icon: <BarChart3 size={24} />,
   },
   {
-    title: "Cost-Effective",
-    desc: "Premium agency-quality services customized to meet specific business objectives without enterprise overhead.",
-    icon: <Banknote size={24} />,
+    title: "Visual Excellence",
+    desc: "We produce visual artwork on a solid base that creates deep emotional linkages between the brand and the customer.",
+    icon: <Palette size={24} />,
   },
   {
-    title: "25k+ Work Hours",
-    desc: "A wealth of experience in the creative industry, ensuring your project is in safe, expert hands.",
-    icon: <Clock size={24} />,
+    title: "Market Strength",
+    desc: "Our main vision is to give your company legitimate strength in the market, solid visibility, and enduring customer loyalty.",
+    icon: <Crown size={24} />,
   },
 ];
 
@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
             viewport={{ once: true }}
             className="text-[#F37021] font-black uppercase tracking-[0.3em] text-xs mb-4"
           >
-            The Blackantz Advantage
+            The Manner In Which We Operate
           </motion.h4>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-black text-[#1A1A1B] leading-tight tracking-tighter"
           >
-            Why Brands <span className="text-[#F37021]">Trust Us</span> With Their Identity
+            The Genuine <span className="text-[#F37021]">Touch of Excellence</span> in Results
           </motion.h2>
         </div>
 
