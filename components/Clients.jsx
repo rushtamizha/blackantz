@@ -67,7 +67,7 @@ const LogoTrack = ({ items, direction = "left" }) => {
         {duplicatedItems.map((logo, idx) => (
           <div
             key={idx}
-            className="flex items-center justify-center w-40 h-24 md:w-56 md:h-32   px-8  transition-all duration-500   hover:bg-white  group"
+            className="flex items-center justify-center w-40 h-24 md:w-56 md:h-32  transition-all duration-500   hover:bg-white  group"
           >
             <img 
               src={logo.image} 
@@ -102,7 +102,7 @@ const Clients = () => {
           </motion.div>
           
           <h2 className="text-4xl md:text-6xl font-black text-[#1A1A1B] tracking-tighter mb-6">
-            Trusted by <span className="text-[#F37021]">Industry</span> Leaders.
+            Trusted by Clients
           </h2>
           
           <p className="text-gray-500 font-medium max-w-2xl text-base md:text-lg">
@@ -126,7 +126,7 @@ const Clients = () => {
 
       <div className="mt-16 text-center">
         <p className="text-[10px] font-black uppercase tracking-[0.4em] text-gray-600">
-          50+ Brands • 250+ Projects • 12+ Years Experience
+          50+ Brands • 250+ Projects • 14+ Years Experience
         </p>
       </div>
     </section>
