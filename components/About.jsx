@@ -20,7 +20,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-24 bg-white overflow-hidden">
+    <section id="about" className="py-10 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           
@@ -70,15 +70,15 @@ const About = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  className={`p-8 rounded-[2.5rem] border border-gray-100 flex flex-col gap-4 shadow-sm hover:shadow-xl hover:shadow-orange-100/50 transition-all duration-500 ${
+                  className={`p-5 rounded-2xl border border-gray-100 flex flex-col gap-4 shadow-sm hover:shadow-xl hover:shadow-orange-100/50 transition-all duration-500 ${
                     idx === 1 || idx === 2 ? "bg-white" : "bg-gray-50/50"
                   }`}
                 >
-                  <div className="w-12 h-12 bg-white rounded-2xl shadow-sm flex items-center justify-center border border-gray-100">
+                  <div className="w-8 h-8 bg-white rounded-md shadow-sm flex items-center justify-center border border-gray-100">
                     {stat.icon}
                   </div>
                   <div>
-                    <h3 className="text-3xl font-black text-[#1A1A1B] tracking-tight">{stat.value}</h3>
+                    <h3 className="text-xl font-black text-[#1A1A1B] tracking-tight">{stat.value}</h3>
                     <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mt-1">
                       {stat.label}
                     </p>
@@ -91,7 +91,7 @@ const About = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="bg-[#1A1A1B] p-10 rounded-[3rem] relative overflow-hidden"
+              className="bg-[#1A1A1B] p-5 rounded-2xl relative overflow-hidden"
             >
               <div className="relative z-10">
                 <h4 className="text-[#F37021] font-black uppercase tracking-widest text-xs mb-4">Our Vision</h4>

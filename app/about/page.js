@@ -52,7 +52,7 @@ const AboutPage = () => {
   return (
     <main className="bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-[#0F0F10] text-white">
+      <section className="pt-32 pb-10 bg-[#0F0F10] text-white">
         <div className="max-w-7xl mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -75,7 +75,7 @@ const AboutPage = () => {
       </section>
 
       {/* Stats Bento Grid */}
-      <section className="py-12 -mt-10 relative z-10">
+      <section className="py-12 -mt-1 relative z-10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {stats.map((stat, idx) => (
@@ -85,13 +85,13 @@ const AboutPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-white p-8 rounded-[2rem] shadow-xl border border-gray-100 flex flex-col gap-4"
+                className="bg-white p-8 rounded-[2rem] shadow-2xs border border-gray-100 flex flex-col gap-4"
               >
                 <div className="w-12 h-12 bg-gray-50 rounded-2xl flex items-center justify-center border border-gray-100">
                   {stat.icon}
                 </div>
                 <div>
-                  <h3 className="text-3xl font-black text-[#1A1A1B]">{stat.value}</h3>
+                  <h3 className="text-xl font-black text-[#1A1A1B]">{stat.value}</h3>
                   <p className="text-[10px] font-black uppercase tracking-widest text-gray-400 mt-1">{stat.label}</p>
                 </div>
               </motion.div>
@@ -101,7 +101,7 @@ const AboutPage = () => {
       </section>
 
       {/* Introduction Content */}
-      <section className="py-24">
+      <section className="py-14">
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -165,11 +165,8 @@ const AboutPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-white p-8 rounded-[2.5rem] border border-gray-100 group hover:shadow-2xl transition-all duration-500"
+                className="bg-white p-8 rounded-[2.5rem] border border-gray-100 group  transition-all duration-500"
               >
-                <div className="text-4xl font-black text-gray-100 group-hover:text-[#F37021]/10 transition-colors mb-4">
-                  {item.step}
-                </div>
                 <div className="mb-6">{item.icon}</div>
                 <h3 className="text-lg font-black text-[#1A1A1B] uppercase tracking-tight mb-4">
                   {item.title}
@@ -184,14 +181,14 @@ const AboutPage = () => {
       </section>
 
       {/* Philosophy Section */}
-      <section className="py-24">
+      <section className="py-14">
         <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-[#1A1A1B] uppercase tracking-tighter mb-8 leading-tight">
+          <h2 className="text-2xl md:text-4xl font-black text-[#1A1A1B] uppercase tracking-tighter mb-8 leading-tight">
             We think like our users. We are a rare breed of creative perfectionists 
             constantly looking to <span className="text-[#F37021]">improve things.</span>
           </h2>
-          <div className="w-20 h-1 bg-[#F37021] mx-auto rounded-full mb-12" />
-          <p className="text-gray-500 text-lg font-medium leading-relaxed max-w-3xl mx-auto">
+          <div className="w-20 h-1 bg-[#F37021] mx-auto rounded-full mb-5" />
+          <p className="text-gray-500  font-medium leading-relaxed max-w-3xl mx-auto">
             Online media is a unique opportunity to manage and measure every aspect 
             of customer relationships. We create elegant, attractive, and trendy 
             designs that are enticing and unique.

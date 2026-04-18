@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 const Testimonials = () => {
   return (
-    <section className="py-24 bg-gray-50 overflow-hidden">
+    <section className="py-14 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Section Header */}
@@ -40,7 +40,7 @@ const Testimonials = () => {
         >
           {reviewsData.reviews.map((review) => (
             <SwiperSlide key={review.id}>
-              <div className="bg-white p-10 rounded-[2.5rem] border border-gray-100 shadow-sm  transition-all duration-500 flex flex-col h-full group">
+              <div className="bg-white p-5 rounded-xl border border-gray-100 shadow-sm  transition-all duration-500 flex flex-col h-full group">
                 
                 {/* Quote Icon */}
                 <div className="mb-6 flex justify-between items-center">
@@ -60,7 +60,7 @@ const Testimonials = () => {
                 </p>
 
                 {/* Client Info */}
-                <div className="pt-6 border-t border-gray-50">
+                <div className=" border-t border-gray-50">
                   <h5 className="text-[#1A1A1B] font-black uppercase tracking-tight text-base">
                     {review.name}
                   </h5>

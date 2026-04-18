@@ -101,8 +101,8 @@ const Navbar = () => {
       <header
         className={`fixed top-0 w-full z-[100] transition-all duration-500 ${
           scrolled
-            ? "bg-white/90 backdrop-blur-xl shadow-sm py-3"
-            : "bg-white/90 py-5"
+            ? "bg-white backdrop-blur-xl shadow-sm py-2"
+            : "bg-white py-2"
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
@@ -112,7 +112,7 @@ const Navbar = () => {
             className="flex items-center gap-3 group z-[110] select-none"
           >
             {/* Logo Image Container */}
-            <div className="relative h-16  overflow-hidden transition-transform duration-500 group-hover:scale-110">
+            <div className="relative h-15  overflow-hidden transition-transform duration-500 group-hover:scale-110">
               <img 
                 src="/Logo.png"
                 alt="Blackantz Logo"
@@ -240,7 +240,7 @@ const Navbar = () => {
                 </span>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="p-2 bg-gray-50 rounded-full"
+                  className="p-2 bg-gray-50 text-gray-700 rounded-full"
                 >
                   <X size={20} />
                 </button>

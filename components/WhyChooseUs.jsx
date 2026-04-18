@@ -46,7 +46,7 @@ const reasons = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-14 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         
         {/* Header Section */}
@@ -80,14 +80,14 @@ const WhyChooseUs = () => {
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
               whileHover={{ y: -8 }}
-              className="p-10 rounded-[2.5rem] bg-gray-50 border border-gray-100 flex flex-col items-start gap-6 group hover:bg-white hover:shadow-2xl hover:shadow-orange-100/50 transition-all duration-500"
+              className="p-5 rounded-[2.5rem] bg-gray-50 border border-gray-100 flex flex-col items-start gap-6 group hover:bg-white hover:shadow-2xl hover:shadow-orange-100/50 transition-all duration-500"
             >
               <div className="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-[#F37021] shadow-sm group-hover:bg-[#F37021] group-hover:text-white transition-colors duration-500">
                 {item.icon}
               </div>
               
               <div>
-                <h3 className="text-xl font-black text-[#1A1A1B] uppercase tracking-tight mb-3">
+                <h3 className="text font-black text-[#1A1A1B] uppercase tracking-tight mb-3">
                   {item.title}
                 </h3>
                 <p className="text-gray-500 text-sm leading-relaxed font-medium">
@@ -95,7 +95,7 @@ const WhyChooseUs = () => {
                 </p>
               </div>
 
-              <div className="mt-auto pt-4 overflow-hidden w-full">
+              <div className="mt-auto pt-1 overflow-hidden w-full">
                 <div className="h-1 w-12 bg-[#F37021]/20 rounded-full group-hover:w-full transition-all duration-500" />
               </div>
             </motion.div>

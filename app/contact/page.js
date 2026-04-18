@@ -53,7 +53,7 @@ const ContactPage = () => {
           {/* Contact Information Cards */}
           <div className="space-y-6">
             <div className="grid sm:grid-cols-2 gap-6">
-              <div className="p-8 rounded-[2.5rem] bg-gray-50 border border-gray-100 flex flex-col gap-4">
+              <div className="p-6 rounded-xl bg-gray-50 border border-gray-100 flex flex-col gap-4">
                 <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-[#F37021] shadow-sm">
                   <FaPhoneAlt size={18} />
                 </div>
@@ -63,7 +63,7 @@ const ContactPage = () => {
                 </div>
               </div>
 
-              <div className="p-8 rounded-[2.5rem] bg-gray-50 border border-gray-100 flex flex-col gap-4">
+              <div className="p-6 rounded-xl bg-gray-50 border border-gray-100 flex flex-col gap-4">
                 <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-[#F37021] shadow-sm">
                   <HiOutlineMailOpen size={22} />
                 </div>
@@ -76,7 +76,7 @@ const ContactPage = () => {
 
             <div className="p-10 rounded-[3rem] bg-[#1A1A1B] text-white relative overflow-hidden">
               <div className="relative z-10">
-                <h3 className="text-2xl font-black uppercase tracking-tight mb-4">Our Locations</h3>
+                <h3 className="text-xl  font-black uppercase tracking-tight mb-4">Our Locations</h3>
                 <div className="flex items-start gap-4 mb-8">
                   <FaMapMarkerAlt size={20} className="text-[#F37021] mt-1" />
                   <p className="text-gray-400 font-medium leading-relaxed">

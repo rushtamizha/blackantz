@@ -22,7 +22,7 @@ const allWorks = [
 
 const HomePortfolio = () => {
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-14 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-12 flex flex-col md:flex-row justify-between items-end gap-6">
         <motion.div
           initial={{ opacity: 0, x: -20 }}

@@ -133,7 +133,7 @@ const EnterpriseFooter = () => {
 
           {/* Social Presence */}
           <motion.div variants={itemVariants}>
-            <h4 className="text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-8">
+            <h4 className="text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-5">
               Follow Us
             </h4>
             <div className="grid grid-cols-2 gap-4">
@@ -159,7 +159,7 @@ const EnterpriseFooter = () => {
         </motion.div>
 
         {/* Bottom Bar */}
-        <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className=" border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-wrap justify-center gap-6">
             <p className="text-[10px] font-black text-gray-500 uppercase tracking-[0.4em]">
               Copyright © {currentYear} BLACKANTZ

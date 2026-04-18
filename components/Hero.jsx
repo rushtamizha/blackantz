@@ -39,7 +39,7 @@ const CreativeHero = () => {
   };
 
   return (
-    <section className="relative min-h-screen bg-[#0F0F10] flex items-center pt-28 pb-12 lg:pt-20 overflow-hidden">
+    <section className="relative min-h-screen bg-[#0F0F10] flex items-center pt-35 pb-12 lg:pt-20 overflow-hidden">
       
       {/* Background Text Watermark */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-full pointer-events-none opacity-[0.03] select-none text-center">

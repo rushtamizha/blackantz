@@ -87,7 +87,7 @@ const Clients = () => {
   const bottomRow = [...logoData].reverse();
 
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-14 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 mb-16">
         <div className="flex flex-col items-center text-center">
           <motion.div
