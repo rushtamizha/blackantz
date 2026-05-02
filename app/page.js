@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import HomePortfolio from "@/components/Portfolio";
+import RecentWorks from "@/components/Recent";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -16,7 +17,7 @@ export default function Home() {
       <About/>
       <Services/>
       <WhyChooseUs/>
-      <HomePortfolio/>
+      <RecentWorks/>
       <Clients/>
       <Testimonials/>
     </div>

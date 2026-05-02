@@ -41,22 +41,10 @@ const navData =[
         subItems: ["Carton Boxes", "Product Packaging", "Container Wrapping", "Sachets"]
       },
       {
-        title: "UI & UX Design",
-        desc: "Intelligent Digital Interfaces",
-        icon: <Monitor size={18} />,
-        subItems: ["Web Design", "Web Applications", "Mobile Apps"]
-      },
-      {
         title: "Printing Services",
         desc: "Multicolor Product Printing",
         icon: <Printer size={18} />,
         subItems: ["Business Cards", "Brochures", "Office Stationery", "Inshop Branding"]
-      },
-      {
-        title: "Digital & Online",
-        desc: "Digital Marketing & Social Media",
-        icon: <Smartphone size={18} />,
-        subItems: ["Marketing Planning", "Social Media Design", "Google Ads", "Amazon Sales Store"]
       },
       {
         title: "Sign Boards",
@@ -70,12 +58,6 @@ const navData =[
         icon: <Calendar size={18} />,
         subItems: ["Event Backdrops", "Stall Creatives", "Rollup Standees", "Visual Menus"]
       },
-      {
-        title: "Strategy & Workflow",
-        desc: "Consulting & Brand Audits",
-        icon: <Lightbulb size={18} />,
-        subItems: ["Goal Workshops", "Brand Strategy", "Consumer Research", "Artwork Debugging"]
-      }
     ]
   }
 ];
@@ -109,19 +91,19 @@ const Navbar = () => {
           {/* Logo Section */}
           <Link
             href="/"
-            className="flex items-center gap-3 group z-[110] select-none"
+            className="flex items-end  group z-[110] select-none"
           >
             {/* Logo Image Container */}
-            <div className="relative h-15  overflow-hidden transition-transform duration-500 group-hover:scale-110">
+            <div className="relative h-10  overflow-hidden transition-transform duration-500 group-hover:scale-110">
               <img 
-                src="/Logo.png"
+                src="/BLAC Logo /Favicon.png"
                 alt="Blackantz Logo"
                 className="w-full h-full object-contain"
               />
             </div>
 
             {/* Brand Text */}
-            <div className="hidden flex-col">
+            <div className=" flex-col flex ">
               <span className="text-xl md:text-2xl font-black text-[#1A1A1B] leading-[0.8] tracking-tighter uppercase">
                 BLACK<span className="text-[#F37021]">ANTZ</span>
               </span>
@@ -168,7 +150,7 @@ const Navbar = () => {
                       {item.children.map((child, cIdx) => (
                         <Link
                           key={cIdx}
-                          href="/#services"
+                          href="/services"
                           className="flex items-center gap-4 p-3 rounded-xl hover:bg-[#FDF2EB] transition-all group"
                         >
                           <div className="w-10 h-10 flex items-center justify-center bg-gray-50 rounded-lg group-hover:bg-white group-hover:text-[#F37021] transition-colors text-gray-400">
@@ -211,7 +193,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(true)}
             className="lg:hidden p-2 text-[#1A1A1B]"
           >
-            <Menu size={28} />
+            <Menu size={25} />
           </button>
         </div>
       </header>

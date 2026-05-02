@@ -49,7 +49,7 @@ const EnterpriseFooter = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-24"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-10"
         >
           {/* Brand Info */}
           <motion.div variants={itemVariants} className="space-y-8">
@@ -84,8 +84,8 @@ const EnterpriseFooter = () => {
           </motion.div>
 
           {/* Capabilities */}
-          <motion.div variants={itemVariants}>
-            <h4 className="text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-8">
+          <motion.div className="hidden" variants={itemVariants}>
+            <h4 className=" text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-8">
               Capabilities
             </h4>
             <ul className="space-y-4">
@@ -133,7 +133,7 @@ const EnterpriseFooter = () => {
 
           {/* Social Presence */}
           <motion.div variants={itemVariants}>
-            <h4 className="text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-5">
+            <h4 className="text-xs font-black uppercase tracking-[0.3em] text-[#F37021]  mb-5">
               Follow Us
             </h4>
             <div className="grid grid-cols-2 gap-4">
@@ -159,7 +159,7 @@ const EnterpriseFooter = () => {
         </motion.div>
 
         {/* Bottom Bar */}
-        <div className=" border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
+        <div className=" border-t py-6 border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-wrap justify-center gap-6">
             <p className="text-[10px] font-black text-gray-500 uppercase tracking-[0.4em]">
               Copyright © {currentYear} BLACKANTZ

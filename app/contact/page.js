@@ -42,7 +42,7 @@ const ContactPage = () => {
               <span className="text-[#F37021]">Stunning Brand.</span>
             </h1>
             <p className="text-gray-500 text-lg font-medium leading-relaxed">
-              Based in Madurai and Sivagangai, we serve clients across India. 
+               We serve clients across India. 
               Ready to take your business to the next level?
             </p>
           </motion.div>

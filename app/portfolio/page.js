@@ -12,27 +12,29 @@ export default function PortfolioPage() {
   // Flattening and memoizing the data for the "All" view
   const allWorks = useMemo(() => {
     return [
-      ...worksData.aluminumfabric,
-      ...worksData.expobranding,
-      ...worksData.fancysignage,
-      ...worksData.graphicdesign,
-      ...worksData.packagedesign,
-      ...worksData.siteworks,
-      ...worksData.vehiclebranding,
-      ...worksData.portfolio,
+      ...worksData.advertising,
+      ...worksData.brochure,
+      ...worksData.common,
+      ...worksData.creative,
+      ...worksData.flyer,
+      ...worksData.logo,
+      ...worksData.packaging,
+      ...worksData.signage,
+      ...worksData.vehicle,
     ];
   }, []);
 
   const categories = [
     { id: "all", label: "All Projects" },
-    // { id: "aluminumfabric", label: "aluminumfabric" },
-    // { id: "expobranding", label: "expobranding" },
-    // { id: "fancysignage", label: "fancysignage" },
-    // { id: "graphicdesign", label: "graphicdesign" },
-    // { id: "packagedesign", label: "packagedesign" },
-    // { id: "siteworks", label: "siteworks" },
-    // { id: "vehiclebranding", label: "vehiclebranding" },
-    // { id: "portfolio", label: "portfolio" },
+    { id: "advertising", label: "advertising" },
+    { id: "brochure", label: "brochure" },
+    { id: "common", label: "common" },
+    { id: "creative", label: "creative" },
+    { id: "flyer", label: "flyer" },
+    { id: "logo", label: "logo" },
+    { id: "packaging", label: "packaging" },
+    { id: "signage", label: "signage" },
+    { id: "vehicle", label: "vehicle" },
   ];
 
   const displayWorks = activeCategory === "all" 
@@ -60,9 +62,9 @@ export default function PortfolioPage() {
 
         {/* Category Filter Bar */}
         <div className="flex flex-wrap gap-2 mb-12 border-b border-gray-100 pb-8">
-          {categories.map((cat) => (
+          {categories.map((cat , i) => (
             <button
-              key={cat.id}
+              key={i}
               onClick={() => setActiveCategory(cat.id)}
               className={`px-8 py-3 rounded-2xl text-[11px] font-black uppercase tracking-widest transition-all duration-300 ${
                 activeCategory === cat.id 
@@ -103,7 +105,7 @@ export default function PortfolioPage() {
                   <span className="text-[#F37021] text-[10px] font-black px-4 py-1.5 rounded-full uppercase tracking-widest bg-white/10 backdrop-blur-md w-fit mb-4">
                     {work.type || work.category}
                   </span>
-                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter mb-6 leading-tight">
+                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter mb-6 leading-tight hidden">
                     {work.title}
                   </h3>
                   
