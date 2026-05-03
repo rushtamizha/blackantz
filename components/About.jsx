@@ -72,11 +72,9 @@ const About = () => {
             transition={{ duration: 0.8 }}
           >
             <h4 className="text-[#F37021] font-black uppercase tracking-[0.3em] text-xs mb-4">
-              About
+              About Us
             </h4>
-            <h2 className="text-4xl md:text-5xl font-black text-[#1A1A1B] leading-tight mb-8 tracking-tighter">
-              Creative Perfectionists
-            </h2>
+
 
             <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
               <p>

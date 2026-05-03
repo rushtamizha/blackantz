@@ -53,13 +53,18 @@ const EnterpriseFooter = () => {
         >
           {/* Brand Info */}
           <motion.div variants={itemVariants} className="space-y-8">
-            <Link href="/" className="flex flex-col group">
-              <span className="text-xl md:text-2xl font-black text-white leading-none tracking-tighter">
-                BLACK<span className="text-[#F37021]">ANTZ</span>
-              </span>
-              <span className="text-[9px] uppercase font-bold tracking-[0.3em] text-gray-500 group-hover:text-[#F37021] transition-colors">
-                Creative Society
-              </span>
+            <Link
+              href="/"
+              className="flex  items-center group z-[110] select-none"
+            >
+              {/* Logo Image Container */}
+              <div className="relative h-9 overflow-hidden transition-transform duration-500 group-hover:scale-110 ">
+                <img
+                  src="/BLAC Logo /LogoA1.png"
+                  alt="Blackantz Logo"
+                  className="w-full h-full  object-cover "
+                />
+              </div>
             </Link>
 
             <div className="space-y-4">
@@ -68,8 +73,8 @@ const EnterpriseFooter = () => {
                   <FaMapMarkerAlt size={16} />
                 </div>
                 <p className="text-sm text-gray-400 font-medium leading-relaxed pt-1">
-                  Madurai & Sivagangai, <br />
-                  Tamil Nadu, India.
+                  Ram Complex, 2nd floor,<br/> 16-Sakthivelammal Street, 
+<br/>Byepass Road, S.S Colony, <br/>Madurai - 625016, Tamil Nadu, India.
                 </p>
               </div>
               <div className="flex items-center gap-4 group">
@@ -83,31 +88,7 @@ const EnterpriseFooter = () => {
             </div>
           </motion.div>
 
-          {/* Capabilities */}
-          <motion.div className="hidden" variants={itemVariants}>
-            <h4 className=" text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-8">
-              Capabilities
-            </h4>
-            <ul className="space-y-4">
-              {[
-                "Brand Identity",
-                "Packaging Design",
-                "LED Signage",
-                "UV Printing",
-                "Ad Campaigns",
-              ].map((link) => (
-                <li key={link}>
-                  <Link
-                    href="/#services"
-                    className="text-sm font-bold text-gray-400 hover:text-white transition-colors flex items-center gap-2 group"
-                  >
-                    <div className="w-1 h-1 rounded-full bg-[#F37021] opacity-0 group-hover:opacity-100 transition-all" />
-                    {link}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
+
 
           {/* Company */}
           <motion.div variants={itemVariants}>
@@ -115,15 +96,15 @@ const EnterpriseFooter = () => {
               Company
             </h4>
             <ul className="space-y-4">
-              {["About Us", "Our Process", "Case Studies", "Contact"].map(
-                (link) => (
-                  <li key={link}>
+              {[{label:"About Us",url:"/about"}, {label:"Portfolio",url:"/portfolio"}, {label:"Services",url:"/services"}, {label:"Contact Us",url:"/contact"}].map(
+                (link,i) => (
+                  <li key={i}>
                     <Link
-                      href={link === "Contact" ? "/contact" : "/about"}
+                      href={link.url}
                       className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2 group"
                     >
                       <div className="w-1 h-1 rounded-full bg-[#F37021] opacity-0 group-hover:opacity-100 transition-all" />
-                      {link}
+                      {link.label}
                     </Link>
                   </li>
                 ),
@@ -138,8 +119,8 @@ const EnterpriseFooter = () => {
             </h4>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: <FaInstagram />, label: "Insta", href: "#" },
-                { icon: <FaFacebookF />, label: "Fb", href: "#" },
+                { icon: <FaInstagram />, label: "Insta", href: "https://www.instagram.com/blackantzcreatives" },
+                { icon: <FaFacebookF />, label: "Fb", href: "https://www.facebook.com/blackantzcreatives" },
               ].map((social) => (
                 <a
                   key={social.label}

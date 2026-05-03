@@ -133,7 +133,7 @@ const AboutPage = () => {
                 As a growing boutique agency, we offer a <span className="text-[#1A1A1B] font-bold">personalized, flexible, and cost-effective approach</span>. We focus on delivering high-quality work that builds brand recognition, customer trust, and long-term loyalty through attention to every detail.
               </p>
               <p className="font-bold text-[#1A1A1B] border-l-4 border-[#F37021] pl-6">
-                “We believe a brand is one of the most valuable assets any business can own.”
+                “Digital Era. Creative Excellence. Real Impact”
               </p>
             </div>
           </motion.div>

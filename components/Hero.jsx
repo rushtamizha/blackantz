@@ -13,27 +13,27 @@ import "swiper/css/pagination";
 const heroSlides = [
   { 
     url: "https://i.pinimg.com/236x/36/61/c2/3661c2687024c590bc6b00af8572e5c7.jpg", 
-    highlight: "Outstanding",
-    title: "Branding",
+    highlight:<><span className="text-[#F37021]">We</span> <span>Create</span></>,
+    title: <><span className="text-[#F37021]">Outstanding</span> <span>Branding</span></>,
     subtitle: "Build a strong brand identity, use more virtual media, and attract more devoted clients."
   },
   { 
     url: "https://themarketingbirds.com/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-05-at-20.04.30.jpeg", 
-    highlight: "Innovative",
-    title: "Packaging",
+    highlight:<><span >New Thinking,</span> <br/> <span className="text-[#F37021]">New</span> <span >Product </span></>,
+    title: <span className="text-[#F37021]">Packaging Design</span>,
     subtitle: "A good packaging design will encourage you to differentiate your products from those of your rivals."
   },
   { 
     url: "https://mir-s3-cdn-cf.behance.net/project_modules/hd/d8d39017351855.5e7baa24c9dcc.jpg", 
-    highlight: "Magic of",
-    title: "Printing",
+    highlight: <span>Magic of</span>,
+    title: <span className="text-[#F37021]">Printing Services</span>,
     subtitle: "We create a wonderful and efficient printing service for classy business people in a digital world."
   },
   { 
     url: "https://pbs.twimg.com/media/D3oUcXSXsAACT12.jpg", 
-    highlight: "High-Impact",
-    title: "Signage",
-    subtitle: "Modern and aesthetic signage solutions tailored for offices, restaurants, and retail spaces."
+    highlight: <span className="text-[#F37021]">High-Impact Signage Solutions</span>,
+    title: <span >That Drive Visibility and Growth</span>,
+    subtitle: "We offer modern aesthetic signage solutions tailored for your business.Perfect for offices,restaurants,retail spaces, and more"
   },
 ];
 
@@ -66,10 +66,9 @@ const CreativeHero = () => {
               exit={{ opacity: 0, x: 20 }}
               transition={{ duration: 0.5 }}
             >
-              <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[1] tracking-tighter">
-                <span className="text-[#F37021]">We </span>
-                create <br />
-                <span className="text-[#F37021]">{heroSlides[activeIndex].highlight}</span> <br/>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-[1] tracking-tighter">
+                {heroSlides[activeIndex].highlight}
+                <br/>
                 {heroSlides[activeIndex].title}
               </h1>
 

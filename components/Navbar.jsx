@@ -30,34 +30,38 @@ const navData =[
     children: [
       {
         title: "Creative Design",
+        id:"creative-design",
         desc: "Branding, Identity & Ad Campaigns",
         icon: <Layout size={18} />,
         subItems: ["Branding", "Brand Development", "Advertising Campaigns", "Creative Design"]
       },
       {
         title: "Packaging Design",
+        id:"packaging-design",
         desc: "Strategic Product & Box Design",
         icon: <Package size={18} />,
         subItems: ["Carton Boxes", "Product Packaging", "Container Wrapping", "Sachets"]
       },
       {
         title: "Printing Services",
+        id:"priniting-services",
         desc: "Multicolor Product Printing",
         icon: <Printer size={18} />,
         subItems: ["Business Cards", "Brochures", "Office Stationery", "Inshop Branding"]
       },
       {
         title: "Sign Boards",
+        id:"sign-boards",
         desc: "ACP, Acrylic & LED Signage",
         icon: <Layers size={18} />,
         subItems: ["Acrylic Sign Boards", "Backlit Boards", "Slim UV Lighting", "Nonlit Boards"]
       },
-      {
-        title: "Event Services",
-        desc: "Backdrops & Product Displays",
-        icon: <Calendar size={18} />,
-        subItems: ["Event Backdrops", "Stall Creatives", "Rollup Standees", "Visual Menus"]
-      },
+      // {
+      //   title: "Event Services",
+      //   desc: "Backdrops & Product Displays",
+      //   icon: <Calendar size={18} />,
+      //   subItems: ["Event Backdrops", "Stall Creatives", "Rollup Standees", "Visual Menus"]
+      // },
     ]
   }
 ];
@@ -87,29 +91,19 @@ const Navbar = () => {
             : "bg-white py-2"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto py-2 px-6 flex justify-between items-center">
           {/* Logo Section */}
           <Link
             href="/"
-            className="flex items-end  group z-[110] select-none"
+            className="flex  items-center group z-[110] select-none"
           >
             {/* Logo Image Container */}
-            <div className="relative h-10  overflow-hidden transition-transform duration-500 group-hover:scale-110">
+            <div className="relative h-9 overflow-hidden transition-transform duration-500 group-hover:scale-110 ">
               <img 
-                src="/BLAC Logo /Favicon.png"
+                src="/BLAC Logo /LogoA1.png"
                 alt="Blackantz Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full  object-cover"
               />
-            </div>
-
-            {/* Brand Text */}
-            <div className=" flex-col flex ">
-              <span className="text-xl md:text-2xl font-black text-[#1A1A1B] leading-[0.8] tracking-tighter uppercase">
-                BLACK<span className="text-[#F37021]">ANTZ</span>
-              </span>
-              <span className="text-[8px] md:text-[9px] uppercase font-black tracking-[0.25em] md:tracking-[0.4em] text-gray-400 group-hover:text-[#F37021] transition-colors duration-300">
-                Creative Society
-              </span>
             </div>
           </Link>
 
@@ -149,8 +143,8 @@ const Navbar = () => {
                     >
                       {item.children.map((child, cIdx) => (
                         <Link
-                          key={cIdx}
-                          href="/services"
+                          key={child.id}
+                          href={`/services#${child.id}`}
                           className="flex items-center gap-4 p-3 rounded-xl hover:bg-[#FDF2EB] transition-all group"
                         >
                           <div className="w-10 h-10 flex items-center justify-center bg-gray-50 rounded-lg group-hover:bg-white group-hover:text-[#F37021] transition-colors text-gray-400">
@@ -278,7 +272,7 @@ const Navbar = () => {
                             {item.children.map((child, cIdx) => (
                               <Link
                                 key={cIdx}
-                                href="/#services"
+                                href={`/services#${child.id}`}
                                 onClick={() => setIsOpen(false)}
                                 className="flex items-center gap-4 py-4 border-b border-gray-100 last:border-0"
                               >
