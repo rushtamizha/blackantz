@@ -34,7 +34,7 @@ const Services = () => {
       desc: "Branding, Brand Development, and Advertising Campaigns that elevate your brand identity.",
       items: ["Branding & Identity", "Advertising Campaigns", "Social Media Creatives", "Logo Creation"],
       whatsapp: "Hi Blackantz, I need a Creative Design quote.",
-      image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2071&auto=format&fit=crop"
+      image: "/SLIDER/CreativeDesignServices.jpg"
     },
     {
       title: "Package Design",
@@ -42,7 +42,7 @@ const Services = () => {
       desc: "From Carton Boxes to Container Wrapping Stickers and Sachets, we pack with impact.",
       items: ["Carton & Product Boxes", "Container Wrapping", "Sachets & Pouches", "Product Infographics"],
       whatsapp: "Hi Blackantz, I'm interested in Package Design services.",
-      image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070&auto=format&fit=crop"
+      image: "/SLIDER/package.jpg"
     },
     {
       title: "Printing Services",
@@ -50,7 +50,7 @@ const Services = () => {
       desc: "High-quality Office Stationery, Catalogs, and Large Scale Printing with 25+ specialized vendors.",
       items: ["Business Cards & Brochures", "Inshop Branding", "Vehicle Stickers / Wrapping", "Office Stationery"],
       whatsapp: "Hi Blackantz, I need a Printing service quote.",
-      image: "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?q=80&w=1932&auto=format&fit=crop"
+      image: "/SLIDER/PrnitnigServicesNew.jpg"
     },
     {
       title: "Sign Board Services",
@@ -58,7 +58,7 @@ const Services = () => {
       desc: "ACP with Acrylic, LED Signage, and Slim UV lighting boards for maximum visibility.",
       items: ["ACP Acrylic Signage", "3D LED / Backlit Boards", "Slim UV Lighting", "Directory Signage"],
       whatsapp: "Hi Blackantz, I need a Sign Board installation quote.",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop"
+      image: "/SLIDER/SignageServices.jpg"
     },
     {
       title: "Event Services",
@@ -66,7 +66,7 @@ const Services = () => {
       desc: "Event Backdrops, Stall Creatives, and Digital Visual Menus for seamless brand experiences.",
       items: ["Event Backdrops", "Stall Backdrop Creatives", "Rollup Standees", "Digital Visual Menus"],
       whatsapp: "Hi Blackantz, I need Event Branding support.",
-      image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop"
+      image: "/SLIDER/EventServices.jpg"
     }
   ];
 

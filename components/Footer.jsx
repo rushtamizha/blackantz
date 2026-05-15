@@ -36,7 +36,7 @@ const EnterpriseFooter = () => {
         </h2>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[30vw] opacity-[0.015] grayscale">
           <img
-            src="/Logo.png"
+            src="/BLAC Logo /logo2.png"
             alt=""
             className="w-full h-full object-contain"
           />
@@ -60,7 +60,7 @@ const EnterpriseFooter = () => {
               {/* Logo Image Container */}
               <div className="relative h-9 overflow-hidden transition-transform duration-500 group-hover:scale-110 ">
                 <img
-                  src="/BLAC Logo /LogoA1.png"
+                  src="/BLAC Logo /logo2.png"
                   alt="Blackantz Logo"
                   className="w-full h-full  object-cover "
                 />
@@ -73,8 +73,11 @@ const EnterpriseFooter = () => {
                   <FaMapMarkerAlt size={16} />
                 </div>
                 <p className="text-sm text-gray-400 font-medium leading-relaxed pt-1">
-                  Ram Complex, 2nd floor,<br/> 16-Sakthivelammal Street, 
-<br/>Byepass Road, S.S Colony, <br/>Madurai - 625016, Tamil Nadu, India.
+                  No.16 Ram Complex, 2nd floor,
+                  <br /> 16-Sakthivelammal Street,
+                  <br />
+                  Byepass Road, S.S Colony, <br />
+                  Madurai - 625016, Tamil Nadu, India.
                 </p>
               </div>
               <div className="flex items-center gap-4 group">
@@ -88,27 +91,28 @@ const EnterpriseFooter = () => {
             </div>
           </motion.div>
 
-
-
           {/* Company */}
           <motion.div variants={itemVariants}>
             <h4 className="text-xs font-black uppercase tracking-[0.3em] text-[#F37021] mb-8">
               Company
             </h4>
             <ul className="space-y-4">
-              {[{label:"About Us",url:"/about"}, {label:"Portfolio",url:"/portfolio"}, {label:"Services",url:"/services"}, {label:"Contact Us",url:"/contact"}].map(
-                (link,i) => (
-                  <li key={i}>
-                    <Link
-                      href={link.url}
-                      className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2 group"
-                    >
-                      <div className="w-1 h-1 rounded-full bg-[#F37021] opacity-0 group-hover:opacity-100 transition-all" />
-                      {link.label}
-                    </Link>
-                  </li>
-                ),
-              )}
+              {[
+                { label: "About Us", url: "/about" },
+                { label: "Portfolio", url: "/portfolio" },
+                { label: "Services", url: "/services" },
+                { label: "Contact Us", url: "/contact" },
+              ].map((link, i) => (
+                <li key={i}>
+                  <Link
+                    href={link.url}
+                    className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-2 group"
+                  >
+                    <div className="w-1 h-1 rounded-full bg-[#F37021] opacity-0 group-hover:opacity-100 transition-all" />
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </motion.div>
 
@@ -119,8 +123,16 @@ const EnterpriseFooter = () => {
             </h4>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { icon: <FaInstagram />, label: "Insta", href: "https://www.instagram.com/blackantzcreatives" },
-                { icon: <FaFacebookF />, label: "Fb", href: "https://www.facebook.com/blackantzcreatives" },
+                {
+                  icon: <FaInstagram />,
+                  label: "Insta",
+                  href: "https://www.instagram.com/blackantzcreatives",
+                },
+                {
+                  icon: <FaFacebookF />,
+                  label: "Fb",
+                  href: "https://www.facebook.com/blackantzcreatives",
+                },
               ].map((social) => (
                 <a
                   key={social.label}

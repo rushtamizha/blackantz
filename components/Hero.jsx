@@ -12,25 +12,25 @@ import "swiper/css/pagination";
 
 const heroSlides = [
   { 
-    url: "https://i.pinimg.com/236x/36/61/c2/3661c2687024c590bc6b00af8572e5c7.jpg", 
+    url: "/SLIDER/creative.jpg", 
     highlight:<><span className="text-[#F37021]">We</span> <span>Create</span></>,
     title: <><span className="text-[#F37021]">Outstanding</span> <span>Branding</span></>,
     subtitle: "Build a strong brand identity, use more virtual media, and attract more devoted clients."
   },
   { 
-    url: "https://themarketingbirds.com/wp-content/uploads/2020/03/WhatsApp-Image-2020-03-05-at-20.04.30.jpeg", 
+    url: "/SLIDER/package.jpg", 
     highlight:<><span >New Thinking,</span> <br/> <span className="text-[#F37021]">New</span> <span >Product </span></>,
     title: <span className="text-[#F37021]">Packaging Design</span>,
     subtitle: "A good packaging design will encourage you to differentiate your products from those of your rivals."
   },
   { 
-    url: "https://mir-s3-cdn-cf.behance.net/project_modules/hd/d8d39017351855.5e7baa24c9dcc.jpg", 
+    url: "/SLIDER/Printing.jpg", 
     highlight: <span>Magic of</span>,
     title: <span className="text-[#F37021]">Printing Services</span>,
     subtitle: "We create a wonderful and efficient printing service for classy business people in a digital world."
   },
   { 
-    url: "https://pbs.twimg.com/media/D3oUcXSXsAACT12.jpg", 
+    url: "/SLIDER/Signage.jpg", 
     highlight: <span className="text-[#F37021]">High-Impact Signage Solutions</span>,
     title: <span >That Drive Visibility and Growth</span>,
     subtitle: "We offer modern aesthetic signage solutions tailored for your business.Perfect for offices,restaurants,retail spaces, and more"
@@ -112,7 +112,7 @@ const CreativeHero = () => {
                     alt={slide.title} 
                     className="w-full h-full object-cover" 
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F0F10] via-transparent to-[#0F0F10]/40" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0F0F10]/10 via-transparent to-[#0F0F10]/40" />
                 </SwiperSlide>
               ))}
             </Swiper>

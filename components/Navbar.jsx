@@ -91,16 +91,16 @@ const Navbar = () => {
             : "bg-white py-2"
         }`}
       >
-        <div className="max-w-7xl mx-auto py-2 px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto py-1 px-6 flex justify-between items-center">
           {/* Logo Section */}
           <Link
             href="/"
             className="flex  items-center group z-[110] select-none"
           >
             {/* Logo Image Container */}
-            <div className="relative h-9 overflow-hidden transition-transform duration-500 group-hover:scale-110 ">
+            <div className="relative h-7 overflow-hidden transition-transform duration-500 group-hover:scale-110 ">
               <img 
-                src="/BLAC Logo /LogoA1.png"
+                src="/BLAC Logo /logo.png"
                 alt="Blackantz Logo"
                 className="w-full h-full  object-cover"
               />
