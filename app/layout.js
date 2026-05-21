@@ -168,7 +168,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
+      <hea>
         {/* SEO Structured Data */}
         <script
           type="application/ld+json"
