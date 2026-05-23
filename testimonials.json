@@ -27,6 +27,62 @@
       "role": "Tourism Lead",
       "content": "Exceptional digital and print coordination. Their ability to deliver premium results on a tight timeline helped our Andaman project launch successfully.",
       "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Kayal Agro Foods",
+      "role": "Food Industry Partner",
+      "content": "Their service has been truly remarkable, and their professionalism and customer-focused approach stand out as their key strengths. Their creative designs and execution are always aligned with the latest market trends, helping us stay competitive and confident in the market. We also appreciate their prompt communication and quick response time, which greatly supports smooth coordination and faster project completion.",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "name": "MGM Groups",
+      "role": "Packaging Design Partner",
+      "content": "Black Antz delivered packaging designs that perfectly reflected our brand identity. The creativity, detailing, and professional execution helped our products stand out in the market. Highly recommended for innovative packaging solutions.",
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "name": "The Crispy Brown",
+      "role": "Chain Restaurant Owner",
+      "content": "Working with Black Antz has been a fantastic experience. From branding visuals to promotional designs, their team consistently delivered creative concepts that enhanced our restaurant’s presence across all branches.",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "name": "Sathiya Hotels",
+      "role": "In-Shop Branding Partner",
+      "content": "Black Antz transformed our outlet branding with modern and attractive in-shop visuals. Their attention to detail and understanding of customer experience added a premium touch to our hotel interiors.",
+      "rating": 5
+    },
+    {
+      "id": 9,
+      "name": "Xeana Sports",
+      "role": "Signage Partner",
+      "content": "The signage solutions provided by Black Antz were outstanding in both quality and finish. Their team ensured our brand visibility was impactful, professional, and visually appealing.",
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "name": "Color Studios",
+      "role": "Promotional Designs Partner",
+      "content": "From promotional materials to creative campaign designs, Black Antz has been our trusted creative partner. Their innovative ideas and timely delivery always exceed expectations.",
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "name": "Chettinad Foods",
+      "role": "Event Stall & Packaging Design Partner",
+      "content": "Black Antz created stunning event stall designs and attractive packaging concepts that helped us draw more customer attention during exhibitions and food events. Excellent creativity and execution.",
+      "rating": 5
+    },
+    {
+      "id": 12,
+      "name": "All Habibi Restaurant",
+      "role": "Complete Branding Partner",
+      "content": "Black Antz handled our complete restaurant branding with exceptional professionalism. From logo applications to menu design, signage, and promotional creatives, every element was crafted perfectly to match our brand vision.",
+      "rating": 5
     }
   ]
 }
