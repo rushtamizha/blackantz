@@ -114,9 +114,21 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/BLAC Logo /Favicon.png",
-    shortcut: "/BLAC Logo /Favicon.png",
-    apple: "/BLAC Logo /Favicon.png",
+    icon: [
+      { url: "/Favicon.png" },
+      { url: "/Favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/Favicon.png", sizes: "192x192", type: "/Favicon.png" },
+    ],
+    apple: [
+      { url: "/Favicon.png", sizes: "180x180", type: "/Favicon.png" },
+    ],
+    other: [
+      {
+        rel: "mask-icon",
+        url: "/Favicon.png",
+        color: "#D4AF37", // Your signature gold color
+      },
+    ],
   },
 
   verification: {
