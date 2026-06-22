@@ -113,29 +113,30 @@ export const metadata = {
     },
   },
 
-  icons: {
-    icon: [
-      { url: "favicon.ico" },
-      { url: "/Favicon.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
-      { url: "/web-app-manifest-192x192.png", sizes: "192x192", type: "image/png" },
-    ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "/Favicon.png" },
-    ],
-    other: [
-      {
-        rel: "mask-icon",
-        url: "/Favicon.png",
-        color: "#D4AF37", // Your signature gold color
-      },
-    ],
-  },
 
   verification: {
     google: "YOUR_GOOGLE_VERIFICATION_CODE",
   },
-
+ icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/Favicon.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      {
+        url: "/web-app-manifest-192x192.png",
+        sizes: "192x192",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+    ],
+  },
+   manifest: "/site.webmanifest",
   other: {
     "theme-color": "#000000",
     "color-scheme": "dark light",
